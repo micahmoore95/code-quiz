@@ -1,0 +1,50 @@
+.navbar {
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(70, 70, 70);
+    padding: 16px;
+    border: 2px;
+}
+
+.navbar a:link, a:visited {
+    color: whitesmoke;
+    font-size: 24px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: black;
+}
+
+.timer {
+    float: right;
+    font-size: 24px;
+    padding-right: 16px;
+    color: whitesmoke;
+}
+
+body {
+    background-color: rgb(64, 112, 94);
+}
+
+.start-screen {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.button {
+    background-color: rgb(70, 70, 70);
+    color: whitesmoke;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
+
+.button:active {
+    transform: translateY(4px);
+}
