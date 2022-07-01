@@ -46,12 +46,16 @@ body {
     cursor: pointer;
 }
 
-.button:active {
-    transform: translateY(4px);
-}
-
 .question {
     display: none;
     color: whitesmoke;
     text-align: center;
+}
+
+.wrongText {
+    display: none;
+}
+
+.rightText {
+    display: none;
 }
